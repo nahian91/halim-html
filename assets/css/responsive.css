@@ -1,0 +1,125 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.about-promo .page-title h4 {
+	font-size: 30px;
+}
+.single-counter i.fa {
+	position: static;
+	left: auto;
+	top: auto;
+	transform: translateY(0));
+}
+.single-counter {
+	padding: 30px;
+}
+.single-counter h4 {
+	font-size: 16px;
+	padding-left: 0;
+}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#navbarNav a {
+	padding: 0px 5px;
+	font-size: 14px;
+}
+.about-promo .page-title h4 {
+	font-size: 30px;
+}
+.counter-area {
+	display: none;
+}
+.section-title::before {
+	width: 120px;
+}	
+.single-price {
+	margin-bottom: 20px;
+}
+.single-footer {
+	margin-bottom: 30px;
+}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	
+	.header-left {
+	text-align: center;
+	margin-bottom: 5px;
+}
+	.header-social {
+	text-align: center;
+}
+.slide-table h2 {
+	font-size: 35px;
+}
+.slide-table p {
+	font-size: 14px;
+	width: 100%;
+}
+.section-title h3 {
+	font-size: 25px;
+	text-align: center;
+}
+.section-title::before {
+	display:none
+}
+.section-title {
+	margin-bottom: 50px;
+}
+.about, .faq {
+	margin-bottom: 20px;
+}
+.about-promo {
+	display: none;
+}
+.portfolio-menu {
+	display: none;
+}	
+.counter-area {
+	display: none;
+}
+.single-brand img {
+	max-width: 120px;
+	margin-left: 20px;
+}
+.single-footer {
+	margin-bottom: 30px;
+}
+.copyright, .copyright ul {
+	text-align: center;
+}
+.copyright p{
+	margin-bottom: 10px;
+}
+
+#navbarNav {
+  border-top: 1px solid #eee;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+#navbarNav li {
+  padding: 5px 0px;
+}
+#navbarNav ul {
+  text-align: center;
+}
+#navbarNav li a {
+  font-weight: 400;
+}
+	
+	
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
