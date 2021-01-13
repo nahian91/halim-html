@@ -1703,3 +1703,15 @@ a.box-btn:hover i.fa {
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
+
+.portfolio-single h4 {
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dddd;
+  }
+  .portfolio-single iframe {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 3px;
+  }
